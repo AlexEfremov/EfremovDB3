@@ -1,0 +1,3 @@
+CREATE TABLE Orders( id INTEGER NOT NULL, deal_type VARCHAR(40) NOT NULL, product_type VARCHAR(40) NOT NULL, price INTEGER NOT NULL);
+
+CREATE TABLE OrderDetails( buyers_name VARCHAR(50) NOT NULL, broker VARCHAR(100) NOT NULL, b_date DATE NOT NULL);
